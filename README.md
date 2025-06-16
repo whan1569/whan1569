@@ -1,7 +1,7 @@
 <table>
   <tr>
     <td width="150px" align="center">
-      <img src="https://github.com/whan1569/whan1569/raw/main/증명사진.jpg" width="120px" style="border-radius: 10px;" />
+      <img src="https://github.com/whan1569/whan1569/raw/main/profile.jpg" width="120px" style="border-radius: 10px;" />
     </td>
     <td>
       <h3>👋 이동환</h3>
