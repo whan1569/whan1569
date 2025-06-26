@@ -81,8 +81,3 @@
 ![FAISS](https://img.shields.io/badge/FAISS-0081CB?style=flat)
 ![TCP/IP](https://img.shields.io/badge/TCP%2FIP-005F87?style=flat)
 
----
-
-## 📊 GitHub Stats
-
-![whan1569's GitHub stats](https://github-readme-stats.vercel.app/api?username=whan1569&show_icons=true&theme=default)
