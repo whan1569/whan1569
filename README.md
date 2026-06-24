@@ -1,3 +1,4 @@
+```md
 # 이동환 | Donghwan Lee
 
 개인 학습, 실무 기록, 프로토타입, 데이터 수집, 시스템 구조 실험, 보류된 아이디어를 목적별로 정리한 프로젝트 아카이브입니다.
@@ -9,28 +10,11 @@
 
 ## Project Archive Map
 
-```mermaid
-flowchart TB
-    A["Project Archive<br/>목적별 프로젝트 창고"]
-
-    A --> B["실사용 / 실무 기록"]
-    A --> C["개인 시스템 / 자동화 도구"]
-    A --> D["학습 / 구조 실험"]
-    A --> E["AI / 비전 / 실험 자동화"]
-    A --> F["데이터 / 분석 / 시각화"]
-    A --> G["웹 / 서비스 프로토타입"]
-    A --> H["보류 / 컨셉 검토"]
-    A --> I["활동 / 프로필 기록"]
-
-    B --> B1["PLC · VOD 추천 · 교육 산출물"]
-    C --> C1["데이터 파이프라인 · 트레이딩 · OCR · 광고 입찰"]
-    D --> D1["Android 센서 · 추천 구조 · TCP/IP · DB · AWS"]
-    E --> E1["YOLOv8 · MLflow · Optuna · Optical Flow"]
-    F --> F1["상품 데이터 · NASDAQ · 주식 차트 · BTC"]
-    G --> G1["서비스 UI · 교육 서비스 · 초기 기획"]
-    H --> H1["보험 블록체인 · 국가 재정 평가 · 기술 보류"]
-    I --> I1["교육 활동 · 경력 기록 · README 관리"]
-```
+<p align="center">
+  <a href="./Project_structure.png">
+    <img src="./Project_structure.png" alt="Project Archive Map" width="100%">
+  </a>
+</p>
 
 ---
 
@@ -775,3 +759,4 @@ GitHub 프로필 README를 관리하는 저장소입니다.
 * 코드보다 활동과 문서 기록이 중요한 저장소
 
 각 프로젝트는 이후 자기소개서, 면접, 포트폴리오 문서에서 목적에 맞게 선택적으로 꺼내기 위한 기술 기록입니다.
+```
