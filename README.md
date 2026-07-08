@@ -40,8 +40,8 @@
 
 | 분류             | Repositories                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **실제 사용 중**    | [Woojin_works](https://github.com/whan1569/Woojin_works), [Coin](https://github.com/whan1569/Coin), [fund_data_collector](https://github.com/whan1569/fund_data_collector), [TradingBot](https://github.com/whan1569/TradingBot)                                                                                                                                                                                                                                                                                                                                 |
-| **완성 후 사용 보류** | [UN_Comtrade_Collector](https://github.com/whan1569/UN_Comtrade_Collector), [TOPIK](https://github.com/whan1569/TOPIK), [team3_web](https://github.com/whan1569/team3_web), [Team3](https://github.com/whan1569/Team3), [StepTrace_Android](https://github.com/whan1569/StepTrace_Android)                                                                                                                                                                                                                                                                       |
+| **실제 사용 중**    | [Woojin_works](https://github.com/whan1569/Woojin_works), [Coin](https://github.com/whan1569/Coin), [fund_data_collector](https://github.com/whan1569/fund_data_collector), [TradingBot](https://github.com/whan1569/TradingBot), [UN_Comtrade_Collector](https://github.com/whan1569/UN_Comtrade_Collector)                                                                                                                                                                                                                                                     |
+| **완성 후 사용 보류** | [TOPIK](https://github.com/whan1569/TOPIK), [team3_web](https://github.com/whan1569/team3_web), [Team3](https://github.com/whan1569/Team3), [StepTrace_Android](https://github.com/whan1569/StepTrace_Android)                                                                                                                                                                                                                                                                                                                                                   |
 | **한계 확인 후 중단** | [VisionDrive_Risk](https://github.com/whan1569/VisionDrive_Risk), [AutoBid_Bot](https://github.com/whan1569/AutoBid_Bot), [insurance_blockchain](https://github.com/whan1569/insurance_blockchain), [National_Fiscal_Evaluation](https://github.com/whan1569/National_Fiscal_Evaluation), [FairWay](https://github.com/whan1569/FairWay), [car_parts_scan](https://github.com/whan1569/car_parts_scan), [car_parts_scan-AutoML-MLflow-](https://github.com/whan1569/car_parts_scan-AutoML-MLflow-)                                                               |
 | **학습 / 구조 실험** | [ChatApp](https://github.com/whan1569/ChatApp), [C--MySql-connect](https://github.com/whan1569/C--MySql-connect), [aws_study](https://github.com/whan1569/aws_study), [AI_training](https://github.com/whan1569/AI_training), [Item_listup](https://github.com/whan1569/Item_listup), [Nasdaq_crawler](https://github.com/whan1569/Nasdaq_crawler), [Stock_charts](https://github.com/whan1569/Stock_charts), [bitcoin](https://github.com/whan1569/bitcoin), [SkinNote_OPS](https://github.com/whan1569/SkinNote_OPS), [nara](https://github.com/whan1569/nara) |
 | **활동 / 실무 기록** | [college_career](https://github.com/whan1569/college_career), [whan1569](https://github.com/whan1569/whan1569)                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
@@ -126,18 +126,6 @@
 **상태**
 개인 시스템 실험 / 일부 사용 가능 / 실거래 중심보다는 구조 검증 중심
 
-</details>
-
----
-
-<details>
-<summary><strong>2. 완성 후 사용 보류</strong></summary>
-
-<br>
-
-핵심 기능은 구현했지만, 현재는 운영하지 않거나 우선순위에서 내려둔 프로젝트입니다.
-중단 이유는 단순 실패가 아니라 운영 비용, 데이터 확보, 시장성, 관리 부담, 우선순위 판단에 가깝습니다.
-
 ---
 
 ## [UN_Comtrade_Collector](https://github.com/whan1569/UN_Comtrade_Collector)
@@ -155,11 +143,24 @@ UN Comtrade API를 활용해 국가, HS Code, 운송 방식 기준의 수출입 
 * 무역 금액, 수량, 단가, 항공/해상 비율 분석
 * Streamlit 기반 대시보드 구성
 
-**보류 이유**
-데이터 수집과 분석 도구 자체는 구성했지만, 실제 사업 아이템 검증에서는 유통기한, 물류, 포워더, 도매 라인, 운영 리스크 등 데이터 외적인 조건이 더 중요하다고 판단했습니다.
+**사용 목적**
+해외 유통 아이템 검토, 국가별 수출입 흐름 확인, HS Code 기반 시장 규모 파악, 운송 방식별 단가와 물량 비교를 위해 실제로 사용하고 있습니다.
+단순 수집기가 아니라, 아이템 검토 과정에서 데이터 기반 1차 필터링 도구로 활용합니다.
 
 **상태**
-완성형 데이터 도구 / 현재 사용 보류
+실제 사용 중 / 무역 데이터 수집·분석 도구
+
+</details>
+
+---
+
+<details>
+<summary><strong>2. 완성 후 사용 보류</strong></summary>
+
+<br>
+
+핵심 기능은 구현했지만, 현재는 운영하지 않거나 우선순위에서 내려둔 프로젝트입니다.
+보류 이유는 단순 실패가 아니라 운영 비용, 데이터 확보, 시장성, 관리 부담, 우선순위 판단에 가깝습니다.
 
 ---
 
