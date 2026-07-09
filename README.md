@@ -1,761 +1,410 @@
+좋아. **어투만 기준으로**, PDF 1~8페이지에서 정확히 어디가 걸리는지 짚어볼게. 기준 파일은 네가 올린 `toss_place_portfolio_combined.pdf`임. 
 
-# 이동환 | Donghwan Lee
+## 1페이지 표지
 
-개인 학습, 실무 기록, 프로토타입, 데이터 수집, 시스템 구조 실험, 보류된 아이디어를 목적별로 정리한 프로젝트 아카이브입니다.
+### 현재 문장
 
-이 README는 자기소개서가 아니라, 제가 어떤 목적을 가지고 어떤 프로젝트를 수행했는지 정리한 기술 창고입니다.
-각 프로젝트는 완성도보다 **수행 목적**, **사용 성격**, **현재 상태**를 기준으로 분류했습니다.
+> **현실의 문제를 구조화해 성과로 만든 사람**
 
----
+### 걸리는 지점
 
-## Project Archive Map
+이 문장은 나쁘지 않은데, 약간 **채용 포트폴리오용으로 잘 다듬은 문장** 느낌이 있음.
+너의 실제 강점은 “성과로 만든다”보다 **현장에서 문제를 쪼개고, 다시 쓸 수 있는 구조로 남긴다** 쪽임.
 
-<p align="center">
-  <a href="./Project_structure.png">
-    <img src="./Project_structure.png" alt="Project Archive Map" width="100%">
-  </a>
-</p>
+### 추천
 
----
+> **현실의 문제를 직접 겪고, 다시 쓸 수 있는 구조로 남기는 사람**
 
-## Repository Map
+또는
 
-| 성격                 | Repositories                                                                                                                                                                                                                                                                       |
-| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 실무 기록              | [Woojin_works](https://github.com/whan1569/Woojin_works)                                                                                                                                                                                                                           |
-| 활동 기록              | [college_career](https://github.com/whan1569/college_career)                                                                                                                                                                                                                       |
-| 교육 과정 산출물          | [team3_web](https://github.com/whan1569/team3_web), [Team3](https://github.com/whan1569/Team3)                                                                                                                                                                                     |
-| 개인 시스템 / 데이터 파이프라인 | [fund_data_collector](https://github.com/whan1569/fund_data_collector), [UN_Comtrade_Collector](https://github.com/whan1569/UN_Comtrade_Collector), [nara](https://github.com/whan1569/nara)                                                                                       |
-| 트레이딩 / 금융 시스템      | [TradingBot](https://github.com/whan1569/TradingBot), [bitcoin](https://github.com/whan1569/bitcoin)                                                                                                                                                                               |
-| 광고 / 입찰 최적화 실험     | [AutoBid_Bot](https://github.com/whan1569/AutoBid_Bot)                                                                                                                                                                                                                             |
-| Android / 센서       | [StepTrace_Android](https://github.com/whan1569/StepTrace_Android)                                                                                                                                                                                                                 |
-| 웹 / 서비스 프로토타입      | [SkinNote_OPS](https://github.com/whan1569/SkinNote_OPS), [TOPIK](https://github.com/whan1569/TOPIK), [FairWay](https://github.com/whan1569/FairWay)                                                                                                                               |
-| 데이터 수집 / 정제        | [Item_listup](https://github.com/whan1569/Item_listup), [Nasdaq_crawler](https://github.com/whan1569/Nasdaq_crawler)                                                                                                                                                               |
-| 데이터 시각화            | [Stock_charts](https://github.com/whan1569/Stock_charts)                                                                                                                                                                                                                           |
-| AI / 비전 실험         | [car_parts_scan](https://github.com/whan1569/car_parts_scan), [car_parts_scan-AutoML-MLflow-](https://github.com/whan1569/car_parts_scan-AutoML-MLflow-), [VisionDrive_Risk](https://github.com/whan1569/VisionDrive_Risk), [AI_training](https://github.com/whan1569/AI_training) |
-| 네트워크 / DB 학습       | [ChatApp](https://github.com/whan1569/ChatApp), [C--MySql-connect](https://github.com/whan1569/C--MySql-connect)                                                                                                                                                                   |
-| 인프라 학습             | [aws_study](https://github.com/whan1569/aws_study)                                                                                                                                                                                                                                 |
-| 컨셉 검토 / 보류         | [insurance_blockchain](https://github.com/whan1569/insurance_blockchain), [National_Fiscal_Evaluation](https://github.com/whan1569/National_Fiscal_Evaluation), [FairWay](https://github.com/whan1569/FairWay), [VisionDrive_Risk](https://github.com/whan1569/VisionDrive_Risk)   |
-| 프로필 관리             | [whan1569](https://github.com/whan1569/whan1569)                                                                                                                                                                                                                                   |
+> **현장에서 생긴 문제를 쪼개고, 검증해 구조로 남기는 사람**
+
+이게 더 네 말투와 실제 경험에 가까움.
 
 ---
 
-## Project Classification
+## 2페이지 Story Flow
 
-| 구분               | 의미                                             |
-| ---------------- | ---------------------------------------------- |
-| 실사용 / 실무 기록      | 실제 회사 업무, 교육 과정 산출물, 현장 문제, 외부 요구와 연결된 프로젝트    |
-| 개인 시스템 / 자동화 도구  | 개인적으로 사용하거나 반복 실행 가능한 구조를 만들기 위해 진행한 프로젝트      |
-| 학습 / 구조 실험       | 특정 기술, 프레임워크, 구조, 통신 방식, 센서 처리 등을 학습하기 위한 프로젝트 |
-| AI / 비전 / 실험 자동화 | 모델 학습, 실험 추적, 비전 처리, 성능 비교 구조를 다룬 프로젝트         |
-| 데이터 / 분석 / 시각화   | 데이터를 수집, 정제, 저장, 분석, 시각화하기 위한 프로젝트             |
-| 웹 / 서비스 프로토타입    | 서비스 아이디어, 사용자 흐름, 추천 구조, 운영 화면 등을 구현한 프로젝트     |
-| 보류 / 검토 완료       | 기술 가능성은 검토했지만 비용, 효율, 방향성, 시간 문제로 멈춘 프로젝트      |
-| 기록 저장소           | 코드보다 활동, 문서, 경험, 산출물을 정리한 저장소                  |
+### 현재 문장
 
----
+> 저라는 사람의 문제 해결 방식이 실제 성과로 이어졌고, 그 경험이 토스플레이스 Device Software Engineer 직무와 어떻게 연결되는지 보여드립니다.
 
-<details>
-<summary><strong>1. 실사용 / 실무 기록</strong></summary>
+### 걸리는 지점
 
-## [Woojin_works](https://github.com/whan1569/Woojin_works)
+“보여드립니다”가 너무 발표자료/제안서 느낌임.
+조금 더 담백하게 가면 좋음.
 
-**목적**
-산업 장비 제어 과정에서 발생한 PLC/C 기반 제어 로직, I/O 매핑, 상태 전이, 출력 제어, 통신 인터페이스, 현장 디버깅, 버전 관리 이슈를 기록하기 위한 실무 저장소입니다.
+### 추천
 
-**분야**
-`PLC` `C` `B&R Automation Studio` `Industrial Machine Control` `I/O Mapping` `State Logic` `SVN` `Field Debugging`
-
-**주요 내용**
-
-* B&R PLC / Automation Studio 기반 장비 제어 작업 기록
-* C 기반 사출기 제어 로직 분석 및 수정
-* MHC Interface / InterfaceCyclic 관련 로직 분석
-* 외부 장치 연동, I/O 매핑, 출력 조건 정리
-* CorePull, 냉각수 밸브, 출력 조건, 상태 전이 로직 개선 기록
-* SVN 유지보수 이력 및 신규 분기 관리 가이드라인
-* Logical / Physical 배치, APJ, PKG, 라이브러리 관리 범위 정리
-* 현장 테스트, 외근 대응, 수정 보고서성 문서 정리
-
-**상태**
-실무 기록 / 문서화 중심
+> 저는 분야가 달라져도 문제를 푸는 방식은 크게 달라지지 않았습니다.
+> 감으로 시작한 일도 데이터로 확인했고, 실행 후에는 결과를 복기해 다음 기준으로 남겼습니다.
 
 ---
 
-## [team3_web / VODiscovery](https://github.com/whan1569/team3_web)
+### 하단 인용문
 
-**목적**
-LG헬로비전 DX DATA 교육 과정에서 실제 VOD 데이터를 활용해 맞춤형 추천 플랫폼을 구현한 팀 프로젝트입니다.
+> 무엇을 하느냐만 달라졌을 뿐, 문제를 푸는 방식은 일관되었습니다.
 
-**분야**
-`React` `Vite` `Node.js` `Express` `MySQL` `JWT` `Recommendation` `VectorDB`
+### 평가
 
-**주요 내용**
+이건 좋음.
+다만 더 네 말투로 밀면 이렇게 가능함.
 
-* React/Vite 기반 프론트엔드 구현
-* Node.js/Express/MySQL 기반 백엔드 구현
-* JWT 인증 구조 구현
-* 사용자 시청 이력 기반 장르 통계
-* 시청 패턴 분석 API
-* 콘텐츠 임베딩과 VectorDB 기반 추천 전략
-* AWS 배포 및 시연
+### 추천
 
-**상태**
-교육 과정 산출물 / 팀 프로젝트 / 시연 완료
+> 하는 일은 달라졌지만, 문제를 쪼개고 확인하는 방식은 계속 같았습니다.
+
+이게 덜 포장돼 보임.
 
 ---
 
-## [Team3](https://github.com/whan1569/Team3)
+## 3페이지 “나라는 사람”
 
-**목적**
-VOD 추천 프로젝트의 기획, 데이터 분석, 추천 전략, VectorDB 전략 등을 정리한 산출물 저장소입니다.
+### 현재 제목
 
-**분야**
-`Planning` `Data Analysis` `Recommendation Strategy` `VectorDB` `Project Documentation`
+> 현실의 문제를 개발하고, 테스트하고, 검증하고, 복기하며 구조화하는 사람
 
-**주요 내용**
+### 걸리는 지점
 
-* VOD 추천 프로젝트 기획 자료
-* 데이터 분석 기록
-* 줄거리 기반 추천 전략
-* VectorDB 기반 Cold Start 완화 전략
-* 팀 프로젝트 산출물 정리
+여기 **“문제를 개발하고”는 어색함.**
+문제는 개발하는 게 아니라 발견하거나 쪼개거나 정의하는 쪽임.
 
-**상태**
-교육 과정 문서 / 프로젝트 산출물
+### 추천 1 — 가장 안정적
 
-</details>
+> **현실의 문제를 발견하고, 테스트하고, 검증하고, 복기하며 구조화하는 사람**
 
----
+### 추천 2 — 더 네 색깔
 
-<details>
-<summary><strong>2. 개인 시스템 / 자동화 도구</strong></summary>
+> **현실의 문제를 감으로 넘기지 않고, 쪼개고 검증해 구조로 남기는 사람**
 
-## [fund_data_collector](https://github.com/whan1569/fund_data_collector)
+### 추천 3 — 직무형
 
-**목적**
-주식, 원자재, 채권, 외환, 암호화폐, 부동산 등 여러 자산군 데이터를 안정적으로 수집하고 저장하기 위한 데이터 파이프라인입니다.
+> **현장의 문제를 상태·조건·출력 단위로 좁혀 구조화하는 사람**
 
-**분야**
-`Python` `Data Pipeline` `Parquet` `Logging` `Multi-Asset Data` `Finance Data`
-
-**주요 내용**
-
-* 자산군별 fetch 모듈 분리
-* Parquet 기반 데이터 저장
-* 수집 상태 추적
-* 로그 및 리포트 구조
-* 재시작 가능한 데이터 수집 구조
-* 여러 금융/거시 데이터 소스를 하나의 수집 흐름으로 통합
-
-**상태**
-개인 시스템 실험 / 데이터 수집 구조화
+3페이지는 전체 정체성을 말하는 페이지라, 여기 문장이 제일 중요함.
 
 ---
 
-## [TradingBot](https://github.com/whan1569/TradingBot)
+## 4페이지 CASE 1
 
-**목적**
-거래 전략, 실행, 거래소 인터페이스, 리스크 관리, 테스트/실거래 모드를 분리한 트레이딩 시스템 구조 실험입니다.
+### 현재 제목
 
-**분야**
-`Python` `Trading System` `Binance API` `Strategy` `Execution` `Risk Control`
+> 매장 운영 데이터 기반 개선 및 EXIT 경험
 
-**주요 내용**
+### 평가
 
-* exchange / execution / strategy / config / model / dashboard / test 모듈 분리
-* Binance API 기반 워크플로우 구성
-* 전략과 실행 계층 분리
-* 리스크 관리 구조 검토
-* 시그널 생성 구조
-* 테스트 모드와 실거래 모드 분리
+제목은 괜찮음. 다만 “개선 및 EXIT 경험”이 조금 딱딱함.
 
-**상태**
-시스템 아키텍처 실험 / 개인 분석 도구
+### 추천
+
+> **매장 운영을 데이터로 다시 보고, EXIT까지 판단한 경험**
+
+이게 더 사람 말 같음.
 
 ---
 
-## [UN_Comtrade_Collector](https://github.com/whan1569/UN_Comtrade_Collector)
+### 현재 설명문
 
-**목적**
-UN Comtrade API를 활용해 국가, HS Code, 운송 방식 기준의 수출입 데이터를 수집하고 분석하기 위한 프로젝트입니다.
+> 감에 의존하던 매장 운영을 입고·출고·매출 흐름 기준으로 다시 정리하고, OpenUp 기반 매상 추정과 소상공인365 유동인구·상권 트렌드 분석을 함께 활용해 운영 개선과 EXIT 판단까지 연결했습니다.
 
-**분야**
-`Python` `UN Comtrade API` `Trade Data` `Streamlit` `CSV Cache`
+### 걸리는 지점
 
-**주요 내용**
+정보는 다 들어갔는데 문장이 길고 “활용해/연결했습니다”가 보고서 톤임.
 
-* 국가 기준 무역 데이터 수집
-* HS Code 기준 수출입 데이터 수집
-* 운송 방식별 데이터 수집
-* 수집 완료 기간 스킵 구조
-* CSV 캐싱
-* API 제한 대응 구조
-* 무역 금액, 수량, 단가, 항공/해상 비율 분석
-* Streamlit 기반 대시보드 구성
+### 추천
 
-**상태**
-데이터 수집 / 분석 도구
+> 처음에는 매장 운영을 감으로 판단하는 부분이 많았습니다.
+> 그래서 입고·출고·매출 흐름을 다시 정리했고, OpenUp으로 매상 흐름을 추정했습니다.
+> 여기에 소상공인365의 유동인구와 상권 트렌드를 함께 보면서, 운영 개선과 EXIT 판단까지 이어갔습니다.
+
+이렇게 쪼개면 훨씬 네가 실제로 한 일처럼 읽힘.
 
 ---
 
-## [nara](https://github.com/whan1569/nara)
+### 핵심 성과 문장
 
-**목적**
-나라장터 입찰 데이터를 자동화와 OCR을 통해 수집하고 구조화하기 위한 프로젝트입니다.
+> OpenUp으로 매상 흐름을 추정하고, 소상공인365로 유동인구와 상권 트렌드를 분석해, 감 중심 운영을 데이터 기반 운영으로 전환하고 EXIT 판단까지 연결했습니다.
 
-**분야**
-`Python` `Selenium` `PyAutoGUI` `OCR` `Google Vision` `MySQL`
+### 추천
 
-**주요 내용**
+> OpenUp으로 매상 흐름을 추정하고, 소상공인365로 유동인구와 상권 흐름을 확인했습니다.
+> 감으로만 보던 운영 문제를 숫자로 다시 보고, 개선할 부분과 빠져야 할 시점을 나눠 판단했습니다.
 
-* Selenium 기반 브라우저 자동화
-* PyAutoGUI 기반 화면 자동화
-* Google Vision OCR 기반 이미지 텍스트 추출
-* 입찰 관련 비정형 데이터 구조화
-* MySQL 저장 구조
-* 수동 탐색이 필요한 데이터를 자동화 흐름으로 전환하는 실험
-
-**상태**
-자동화 / OCR 기반 데이터 추출 실험
+“전환하고 EXIT 판단까지 연결했습니다”보다 훨씬 자연스러움.
 
 ---
 
-## [AutoBid_Bot](https://github.com/whan1569/AutoBid_Bot)
+## 5페이지 CASE 2
 
-**목적**
-상품 군집화, CTR/CVR 분석, 동적 입찰가 조정 구조를 활용해 광고비 최적화 시스템이 가능한지 검토한 프로젝트입니다.
+### 현재 제목
 
-**분야**
-`Python` `Jupyter Notebook` `VectorDB` `CTR/CVR` `Ad Bidding` `Optimization` `Backtesting`
+> 호주 K-뷰티 시장 소량 판매 검증 경험
 
-**주요 내용**
+### 평가
 
-* 벡터DB 기반 유사 상품 군집화
-* 상품 카테고리, 용도, 물리적 형태, 소재, 가격대 기준 분류 구조 검토
-* CTR/CVR 기반 광고 성과 분석
-* 실시간 입찰가 조정 알고리즘 구조 검토
-* 백테스트 한계 정리
-* 실구현 설계 방향 정리
-* 광고비 최적화 전략 제안서 작성
-
-**상태**
-광고 입찰 시스템 구조 검토 / 실험 설계
-
-</details>
+제목은 좋음. 직관적임.
 
 ---
 
-<details>
-<summary><strong>3. 학습 / 구조 실험 프로젝트</strong></summary>
+### 현재 설명문
 
-## [StepTrace_Android](https://github.com/whan1569/StepTrace_Android)
+> 감이나 시장 분위기에만 의존하지 않고, UN 무역 데이터와 eBay 판매 데이터를 함께 확인해 제품 후보를 좁힌 뒤, 소량 판매로 실제 시장 반응을 검증했습니다. 이후 화장품 유통기한, 재고 관리, 초기 유통 리스크를 고려해 확장보다 보류가 더 합리적이라고 판단했습니다.
 
-**목적**
-Android 디바이스의 센서 데이터를 수집하고 기록하는 구조를 실험하기 위한 만보기/위치 기록 앱입니다.
+### 평가
 
-**분야**
-`Android` `Java` `SensorManager` `TYPE_STEP_COUNTER` `GPS` `JSON Logging`
+이 페이지 설명문은 전체에서 꽤 좋음.
+다만 “검증했습니다 / 판단했습니다”가 연속이라 살짝 정리문 느낌이 있음.
 
-**주요 내용**
+### 추천
 
-* Android Step Counter 센서 활용
-* SensorManager / SensorEventListener 기반 센서 이벤트 처리
-* Activity 생명주기에 따른 센서 리스너 등록/해제
-* 일정 걸음 수마다 GPS 위치 정보 기록
-* JSON 형태 데이터 저장 구조
-* 권한, null 처리, 백그라운드 동작 등 디바이스 앱에서 고려해야 할 요소 정리
+> 관심이 있다는 말만으로는 부족했습니다.
+> 그래서 UN 무역 데이터와 eBay 판매 데이터를 같이 보며 제품 후보를 좁혔고, 지인 판매와 eBay 재고처리 방식으로 실제 반응을 확인했습니다.
+> 반응은 있었지만, 유통기한과 재고 회전 리스크를 감안하면 확장보다 보류가 더 맞다고 봤습니다.
 
-**상태**
-학습용 프로토타입 / Android 센서 구조 실험
+여긴 “판단했습니다”보다 **“더 맞다고 봤습니다”**가 더 사람 말 같음.
 
 ---
 
-## [TOPIK](https://github.com/whan1569/TOPIK)
+### 카드 내부 라벨
 
-**목적**
-TOPIK 시험의 문제 번호별 고정 출제 유형을 활용해, 초기 사용자 데이터가 부족한 상황에서도 동작 가능한 규칙 기반 학습 추천 구조를 실험한 프로젝트입니다.
+> 주요 개선 내용
 
-**분야**
-`Node.js` `Express` `EJS` `MySQL` `Rule-based Recommendation` `Education Service`
+### 걸리는 지점
 
-**주요 내용**
+CASE 2는 개선이 아니라 **검증/판단** 사례임.
 
-* 모의시험 응시 기능
-* 정답/오답 판별
-* 문제 번호 기반 유형 분류
-* 사용자별 오답 기록 저장
-* 취약 유형 분석
-* 동일/유사 유형 문제 재노출 흐름 설계
-* Cold Start 상황에서 규칙 기반 추천 가능성 검토
+### 추천 라벨
 
-**상태**
-교육 서비스 프로토타입 / 규칙 기반 추천 구조 실험
+> **주요 검증 내용**
+
+또는
+
+> **판단 기준**
+
+이게 훨씬 정확함.
 
 ---
 
-## [ChatApp](https://github.com/whan1569/ChatApp)
+## 6페이지 CASE 3
 
-**목적**
-C# WinForms 환경에서 TCP/IP 기반 클라이언트-서버 채팅 구조를 학습하기 위한 프로젝트입니다.
+### 현재 제목
 
-**분야**
-`C#` `WinForms` `TCP/IP` `Socket Programming`
+> 사출기 제어 소프트웨어 안정성·유지보수성 개선
 
-**주요 내용**
+### 평가
 
-* 클라이언트-서버 소켓 통신
-* 다중 사용자 채팅 구조
-* 애플리케이션 레벨 네트워크 통신 학습
-* WinForms 기반 UI 구성
-
-**상태**
-학습용 네트워크 애플리케이션
+제목 좋음. 직무랑 가장 잘 맞음.
 
 ---
 
-## [C--MySql-connect](https://github.com/whan1569/C--MySql-connect)
+### 현재 설명문
 
-**목적**
-C++ 애플리케이션과 MySQL 데이터베이스를 연동하는 구조를 학습하기 위한 실험입니다.
+> 사출기 제어 소프트웨어의 실행 구조와 변수 관리, 문서화, 버전관리 체계를 개선하여 간헐적 오류를 제거하고, 인수인계와 프로젝트 운영 효율을 높였습니다.
 
-**분야**
-`C++` `MySQL` `Database Connection`
+### 걸리는 지점
 
-**주요 내용**
+내용은 맞는데 너무 “성과 보고서 문장”임.
+너의 핵심은 단순히 개선했다가 아니라, **cyclic execution에서 불필요한 STEP 제어와 상태 불일치를 봤다**는 점임.
 
-* C++ 애플리케이션과 MySQL 연결
-* DB 연동 구조 학습
-* 저수준 애플리케이션과 데이터 저장소 연결 실습
+### 추천
 
-**상태**
-학습용 DB 연동 실험
+> 단순히 코드를 몇 줄 고치는 문제가 아니었습니다.
+> cyclic execution 환경에서 어떤 조건이 계속 살아 있고, 어떤 출력이 반복 구동되는지 먼저 봤습니다.
+> 이후 실행 구조, 변수 기준, 문서화, 버전관리 항목을 함께 정리해 같은 문제가 반복되지 않도록 바꿨습니다.
 
----
-
-## [aws_study](https://github.com/whan1569/aws_study)
-
-**목적**
-AWS 배포와 인프라 구성을 학습하기 위한 저장소입니다.
-
-**분야**
-`AWS` `EC2` `Deployment` `Infra Study`
-
-**주요 내용**
-
-* 클라우드 배포 학습
-* 인프라 구성 실습
-* 환경 설정 및 배포 흐름 정리
-* 교육 과정 및 개인 실습 기록
-
-**상태**
-학습 기록
+이게 훨씬 기술자 말투임.
 
 ---
 
-## [AI_training](https://github.com/whan1569/AI_training)
+### 1번 카드
 
-**목적**
-AI / 머신러닝 모델 학습과 데이터 처리 실습을 기록하기 위한 노트북 저장소입니다.
+> 실행 구조 개선
 
-**분야**
-`Python` `Jupyter Notebook` `Machine Learning` `Data Processing`
+현재 bullet 중에
 
-**주요 내용**
+> 불필요한 STEP 제어 로직 제거
 
-* 머신러닝 모델 학습 실습
-* 데이터 처리 실험
-* AI 학습 과정 기록
-* 노트북 기반 실험 정리
+이건 아주 좋음. 네 강점이 잘 드러남.
 
-**상태**
-학습 노트북
+다만 카드 문장 어투는 이렇게 바꾸면 더 세짐.
 
-</details>
+### 추천
+
+> 시분할 실행 구조에서 불필요하게 살아 있는 STEP 제어를 줄였습니다.
+> 준비/완료 타이밍이 어긋나며 생기던 간헐적 오류를 상태 전환 기준으로 다시 정리했습니다.
 
 ---
 
-<details>
-<summary><strong>4. AI / 비전 / 실험 자동화 프로젝트</strong></summary>
+### 핵심 성과 문장
 
-## [car_parts_scan](https://github.com/whan1569/car_parts_scan)
+> 단순한 코드 수정이 아니라, 실행 구조·변수 기준·문서화·버전관리까지 정리하여 같은 문제가 반복되지 않도록 개선했습니다.
 
-**목적**
-YOLOv8 기반 자동차 부품 세그멘테이션 모델을 학습하고 결과를 추적하기 위한 프로젝트입니다.
+### 평가
 
-**분야**
-`YOLOv8` `Computer Vision` `Segmentation` `Model Training`
+좋음.
+다만 조금 더 네 말투로 바꾸면:
 
-**주요 내용**
+### 추천
 
-* 자동차 부품 데이터 기반 YOLOv8 세그멘테이션 실험
-* 반복 학습 및 epoch별 결과 추적
-* mAP, precision, loss 등 성능 지표 분석
-* GPU 확인
-* 모델 경량화 검토
-* 결과 비교 스크립트 구성
+> 코드를 고치는 데서 끝내지 않았습니다.
+> 실행 구조, 변수 기준, 문서화, 버전관리까지 같이 정리해 다음 사람이 같은 문제를 반복하지 않도록 남겼습니다.
 
-**상태**
-AI 비전 학습 / 실험 자동화
+이게 제일 좋음.
 
 ---
 
-## [car_parts_scan-AutoML-MLflow-](https://github.com/whan1569/car_parts_scan-AutoML-MLflow-)
+## 7페이지 직무 적합성
 
-**목적**
-MLflow를 활용해 YOLO 학습 실험을 추적하고, 재현 가능한 모델 학습 워크플로우를 구성하기 위한 프로젝트입니다.
+### 현재 핵심 문장
 
-**분야**
-`MLflow` `Optuna` `YOLO` `Experiment Tracking` `AutoML`
+> 저는 현장에서 발생한 문제를 감으로 넘기지 않고, 상태·조건·출력 단위로 좁혀 팀이 다시 사용할 수 있는 기준으로 남기는 사람입니다.
 
-**주요 내용**
+### 평가
 
-* MLflow 기반 실험 기록
-* Optuna 기반 하이퍼파라미터 최적화 구조 검토
-* 파라미터, 메트릭, 아티팩트 관리
-* early stopping 관리
-* 재현 가능한 모델 학습 워크플로우 구성
-* 반복 실험 결과 비교 구조 검토
+**이 문장이 전체에서 제일 좋음.**
+이 문장을 전체 어투의 기준으로 삼으면 됨.
 
-**상태**
-AI 실험 추적 구조 실험
+이유는 세 가지임.
 
----
+첫째, 네 실제 경험이 보임.
+둘째, Device Software Engineer 직무랑 직접 연결됨.
+셋째, “감으로 넘기지 않고”가 네 말투랑 잘 맞음.
 
-## [VisionDrive_Risk](https://github.com/whan1569/VisionDrive_Risk)
+### 수정한다면 아주 조금만
 
-**목적**
-모바일 카메라와 Optical Flow 기반 움직임 분석을 활용해 사고 전조 판단이 가능한지 검토한 프로젝트입니다.
+> 저는 현장에서 생긴 문제를 감으로 넘기지 않고, 상태·조건·출력 단위로 좁혀 팀이 다시 쓸 수 있는 기준으로 남기는 사람입니다.
 
-**분야**
-`Computer Vision` `Optical Flow` `React Native` `Expo` `Mobile Camera` `Risk Detection`
-
-**주요 내용**
-
-* 카메라 영상 기반 사고 전조 판단 가능성 검토
-* Optical Flow 기반 시각적 이동 흐름 분석
-* Expo / React Native 환경에서 카메라 앱 연결
-* 모바일 센서 활용 가능성 확인
-* 고성능 비전 모델 대비 직접 구현의 비용과 효율 검토
-* 기술적으로 가능한 영역과 비용 대비 보류할 영역 구분
-
-**상태**
-기술 검토 완료 / 보류
-
-</details>
+“발생한”보다 “생긴”이 조금 더 자연스러움.
+“사용할 수 있는”보다 “쓸 수 있는”이 덜 딱딱함.
 
 ---
 
-<details>
-<summary><strong>5. 데이터 / 분석 / 시각화 실험</strong></summary>
+## 8페이지 마무리
 
-## [Item_listup](https://github.com/whan1569/Item_listup)
+### 현재 상단
 
-**목적**
-상품명과 검색어를 수집하고 정규화하여 상품/엔티티 분석을 위한 데이터셋을 만드는 프로젝트입니다.
+> 수많은 시행착오 속에서 한계를 경험했습니다.
 
-**분야**
-`Python` `Web Data` `Text Processing` `CSV`
+### 평가
 
-**주요 내용**
-
-* 웹 기반 상품명 및 검색어 수집
-* 검색어 정규화
-* 노이즈 제거
-* 상품명, 브랜드, 카테고리, 성분, 속성 분류
-* CSV 출력 구조 구성
-* 상품 데이터의 구조화 가능성 검토
-
-**상태**
-데이터 정제 / 엔티티 분석 실험
+좋음.
+너의 포트폴리오 방향인 “성공만 포장하지 않고 한계와 복기를 남김”과 맞음.
 
 ---
 
-## [Nasdaq_crawler](https://github.com/whan1569/Nasdaq_crawler)
+### 현재 문장
 
-**목적**
-NASDAQ 종목, ETF, 주요 지수 데이터를 수집하고 정리하기 위한 프로젝트입니다.
+> 한 사람은 혼자 달에 갈 수 없지만, 인류는 함께 달에 도달했습니다.
 
-**분야**
-`Python` `NASDAQ` `Yahoo Finance` `CSV` `Chart Viewer`
+### 걸리는 지점
 
-**주요 내용**
+여기가 제일 튐.
+앞에서는 계속 현장, 데이터, 검증, 구조화 얘기를 했는데 갑자기 감성 카피가 나옴.
+나쁘진 않은데 **토스플레이스 Device Software Engineer 지원 자료의 마지막 문장으로는 살짝 과함.**
 
-* NASDAQ 종목 데이터 수집
-* ETF 데이터 수집
-* 주요 지수 데이터 수집
-* Yahoo Finance 기반 데이터 수집 흐름
-* CSV 출력
-* 차트 뷰어 실험
+### 추천
 
-**상태**
-시장 데이터 수집 실험
+> 혼자 빠르게 해결하는 것보다, 팀이 다시 이해하고 이어갈 수 있는 구조로 남기는 쪽에 더 가치를 둡니다.
+
+이게 훨씬 네 포지션이랑 맞음.
 
 ---
 
-## [Stock_charts](https://github.com/whan1569/Stock_charts)
+### 현재 우측 하단 문장
 
-**목적**
-주식 시장 데이터를 시각화하고, 트리맵 및 각도 차트 등 표현 방식을 실험하기 위한 프로젝트입니다.
+> 현실의 문제를 직접 개발하고, 테스트하고, 검증하고, 복기하며 반복 가능한 구조로 바꾸는 사람.
 
-**분야**
-`Python` `Stock Data` `Visualization` `Treemap`
+### 걸리는 지점
 
-**주요 내용**
+여기도 **“문제를 직접 개발하고”가 어색함.**
+3페이지랑 같은 문제임.
 
-* NASDAQ 주식/ETF 데이터 기반 시각화
-* 트리맵 차트 실험
-* 각도 차트 실험
-* 금융 데이터를 직관적으로 표현하는 방식 검토
+### 추천
 
-**상태**
-데이터 시각화 실험
+> 현실의 문제를 직접 마주하고, 테스트하고, 검증하고, 복기해 반복 가능한 구조로 바꾸는 사람.
 
----
+또는
 
-## [bitcoin](https://github.com/whan1569/bitcoin)
-
-**목적**
-암호화폐 시장 데이터를 분석하고 BTC 시장 흐름을 실험적으로 해석하기 위한 저장소입니다.
-
-**분야**
-`Python` `Crypto Data` `BTC` `Market Analysis`
-
-**주요 내용**
-
-* 암호화폐 시장 데이터 분석
-* BTC 가격 흐름 분석
-* 시장 데이터 기반 해석 실험
-* 트레이딩 관점의 데이터 관찰 기록
-
-**상태**
-시장 분석 실험
-
-</details>
+> 현실의 문제를 감으로 넘기지 않고, 테스트와 검증을 거쳐 반복 가능한 구조로 남기는 사람.
 
 ---
 
-<details>
-<summary><strong>6. 웹 / 앱 / 서비스 프로토타입</strong></summary>
+### 현재 마지막 문장
 
-## [SkinNote_OPS](https://github.com/whan1569/SkinNote_OPS)
+> 이제 그 방식을 토스플레이스의 팀 안에서 더 큰 제품과 더 안정적인 디바이스 경험으로 확장하고 싶습니다.
 
-**목적**
-피부/제품 운영 서비스의 프론트엔드 구조와 UI 흐름을 실험한 프로젝트입니다.
+### 평가
 
-**분야**
-`TypeScript` `Frontend` `Service Prototype` `UI`
+방향은 좋음.
+다만 “확장하고 싶습니다”가 조금 흔한 지원서 표현임.
 
-**주요 내용**
+### 추천
 
-* TypeScript 기반 프론트엔드 구조
-* 서비스 UI 설계
-* 제품/운영 서비스 흐름 실험
-* 사용자 화면 및 운영 화면 구조 검토
+> 이제는 그 방식을 토스플레이스 팀 안에서, 실제 매장의 단말기 문제를 더 안정적인 제품 경험으로 바꾸는 데 쓰고 싶습니다.
 
-**상태**
-서비스 프로토타입
+이게 더 구체적임.
 
 ---
 
-## [FairWay](https://github.com/whan1569/FairWay)
+## 최종적으로 반드시 손볼 문장 TOP 5
 
-**목적**
-웹/서비스 아이디어를 초기 형태로 검토한 기획형 프로토타입입니다.
+**1. 3페이지 제목**
+현재:
 
-**분야**
-`Web Prototype` `Service Idea` `Planning` `Requirement Definition`
+> 현실의 문제를 개발하고…
 
-**주요 내용**
+수정:
 
-* 초기 서비스 아이디어 실험
-* 웹 기반 서비스 구조 검토
-* 요구사항 정의
-* 모델 조사 및 샘플 자료 정리
-
-**상태**
-초기 아이디어 / 보류
-
-</details>
+> 현실의 문제를 발견하고, 테스트하고, 검증하고, 복기하며 구조화하는 사람
 
 ---
 
-<details>
-<summary><strong>7. 보류 / 중단 / 컨셉 검토 프로젝트</strong></summary>
+**2. 4페이지 CASE 1 설명문**
+현재 문장은 너무 길다.
+수정 방향:
 
-## [insurance_blockchain](https://github.com/whan1569/insurance_blockchain)
-
-**목적**
-보험 서비스와 블록체인 구조를 결합할 수 있는지 검토한 컨셉형 프로토타입입니다.
-
-**분야**
-`Blockchain` `Insurance` `Service Concept` `Planning`
-
-**주요 내용**
-
-* 보험과 블록체인 구조 결합 아이디어 실험
-* 전체 서비스 구조 구상
-* 블록체인 적용 가능성 검토
-* 프로젝트 계획서 작성
-
-**상태**
-컨셉 검토 / 보류
+> 처음에는 감으로 보던 매장 운영을 입고·출고·매출 흐름으로 다시 정리했습니다.
 
 ---
 
-## [National_Fiscal_Evaluation](https://github.com/whan1569/National_Fiscal_Evaluation)
+**3. 5페이지 CASE 2 라벨**
+현재:
 
-**목적**
-국가 재정과 거시경제 데이터를 활용한 평가 구조를 검토하기 위한 초기 실험입니다.
+> 주요 개선 내용
 
-**분야**
-`Macro Data` `Fiscal Evaluation` `Economy` `IMF Data`
+수정:
 
-**주요 내용**
-
-* 국가 단위 재정 평가 아이디어
-* IMF 데이터 활용 검토
-* 파생 데이터 생성 검토
-* 거시경제 지표 기반 평가 구조 실험
-
-**상태**
-초기 아이디어 / 보류
-
-</details>
+> 주요 검증 내용
+> 또는
+> 판단 기준
 
 ---
 
-<details>
-<summary><strong>8. 활동 / 프로필 기록</strong></summary>
+**4. 6페이지 CASE 3 설명문**
+현재:
 
-## [college_career](https://github.com/whan1569/college_career)
+> 실행 구조와 변수 관리, 문서화, 버전관리 체계를 개선하여…
 
-**목적**
-대학교, 교육 과정, 산학 실습, 포럼, 사회 경험, 프로젝트 경험을 정리한 활동 기록 저장소입니다.
+수정:
 
-**분야**
-`Career Record` `Education` `Project History` `Activity Archive`
-
-**주요 내용**
-
-* 대학교 산학회사 실습 기록
-* Android + OpenCV 기반 차량 번호판 인식 프로젝트
-* 부산정보정책네트워크 포럼 참석 기록
-* 고등학교 재능기부 / 알고리즘 조교 경험
-* LG헬로비전 DX DATA 교육 이수 기록
-* 창업 및 가게 운영 경험 정리
-
-**상태**
-활동 기록 저장소
+> 단순히 코드를 몇 줄 고치는 문제가 아니었습니다. cyclic execution 환경에서 조건과 출력이 어떻게 살아 있는지 먼저 봤습니다.
 
 ---
 
-## [whan1569](https://github.com/whan1569/whan1569)
+**5. 8페이지 로켓/달 문장**
+현재:
 
-**목적**
-GitHub 프로필 README를 관리하는 저장소입니다.
+> 한 사람은 혼자 달에 갈 수 없지만, 인류는 함께 달에 도달했습니다.
 
-**분야**
-`GitHub Profile` `Project Archive` `README`
+수정:
 
-**주요 내용**
-
-* 전체 프로젝트 아카이브 관리
-* 저장소 분류 기준 정리
-* 프로젝트 목적, 분야, 상태 정리
-* 자기소개서나 면접에서 필요한 프로젝트를 꺼내기 위한 인덱스 역할
-
-**상태**
-프로필 관리 저장소
-
-</details>
+> 혼자 빠르게 해결하는 것보다, 팀이 다시 이해하고 이어갈 수 있는 구조로 남기는 쪽에 더 가치를 둡니다.
 
 ---
 
-## Tech Stack
+정리하면, **7페이지 문장이 제일 좋은 기준 문장**임.
+전체 어투를 7페이지의 이 문장 쪽으로 맞추면 됨.
 
-### Industrial / Embedded
+> 감으로 넘기지 않고, 상태·조건·출력 단위로 좁혀, 팀이 다시 쓸 수 있는 기준으로 남긴다.
 
-`C` `B&R PLC` `Automation Studio` `I/O Mapping` `Cyclic Control Logic` `SVN`
-
-### Data / Automation
-
-`Python` `Selenium` `PyAutoGUI` `Requests` `BeautifulSoup` `Pandas` `CSV` `Parquet` `JSON`
-
-### AI / Vision
-
-`YOLOv8` `OpenCV` `Optical Flow` `MLflow` `Optuna` `Jupyter Notebook`
-
-### Backend / Frontend
-
-`Node.js` `Express` `React` `Vite` `TypeScript` `JavaScript` `EJS` `JWT` `MySQL`
-
-### Mobile / Sensor
-
-`Android Java` `SensorManager` `TYPE_STEP_COUNTER` `GPS` `React Native` `Expo`
-
-### Finance / Market APIs
-
-`Binance API` `yfinance` `FRED API` `UN Comtrade API`
-
----
-
-## How to Read This Archive
-
-이 아카이브는 특정 직무에 맞춘 최종 포트폴리오가 아니라, 작업물의 원본 창고에 가깝습니다.
-
-지원 목적에 따라 다음과 같이 꺼내볼 수 있습니다.
-
-### Device / Embedded / PLC 방향
-
-* [Woojin_works](https://github.com/whan1569/Woojin_works)
-* [StepTrace_Android](https://github.com/whan1569/StepTrace_Android)
-* [VisionDrive_Risk](https://github.com/whan1569/VisionDrive_Risk)
-
-### Data / Pipeline / Automation 방향
-
-* [fund_data_collector](https://github.com/whan1569/fund_data_collector)
-* [UN_Comtrade_Collector](https://github.com/whan1569/UN_Comtrade_Collector)
-* [nara](https://github.com/whan1569/nara)
-* [Item_listup](https://github.com/whan1569/Item_listup)
-
-### AI / Vision / Experiment Tracking 방향
-
-* [car_parts_scan](https://github.com/whan1569/car_parts_scan)
-* [car_parts_scan-AutoML-MLflow-](https://github.com/whan1569/car_parts_scan-AutoML-MLflow-)
-* [VisionDrive_Risk](https://github.com/whan1569/VisionDrive_Risk)
-* [AI_training](https://github.com/whan1569/AI_training)
-
-### Web / Service / Recommendation 방향
-
-* [team3_web](https://github.com/whan1569/team3_web)
-* [Team3](https://github.com/whan1569/Team3)
-* [TOPIK](https://github.com/whan1569/TOPIK)
-* [SkinNote_OPS](https://github.com/whan1569/SkinNote_OPS)
-
-### Finance / Market System 방향
-
-* [TradingBot](https://github.com/whan1569/TradingBot)
-* [fund_data_collector](https://github.com/whan1569/fund_data_collector)
-* [bitcoin](https://github.com/whan1569/bitcoin)
-* [Nasdaq_crawler](https://github.com/whan1569/Nasdaq_crawler)
-* [Stock_charts](https://github.com/whan1569/Stock_charts)
-
----
-
-## Archive Policy
-
-이 저장소들은 모두 완성품만을 의미하지 않습니다.
-
-아래 항목들을 구분하여 보관합니다.
-
-* 실제 사용되었거나 실무와 연결된 프로젝트
-* 교육 과정에서 산출물로 만든 프로젝트
-* 개인적으로 사용하거나 반복 실행하려고 만든 시스템
-* 학습을 위해 만든 프로젝트
-* 구조를 검증하기 위한 프로젝트
-* 기술 가능성은 확인했지만 보류한 프로젝트
-* 실패하거나 중단했지만 판단 근거가 남아 있는 프로젝트
-* 코드보다 활동과 문서 기록이 중요한 저장소
-
-각 프로젝트는 이후 자기소개서, 면접, 포트폴리오 문서에서 목적에 맞게 선택적으로 꺼내기 위한 기술 기록입니다.
+이 톤으로 1, 3, 6, 8페이지를 맞추면 훨씬 덜 GPT 같고, 네 실제 경험이 더 살아남.
