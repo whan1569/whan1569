@@ -44,9 +44,9 @@
 | 분류             | Repositories                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **실제 사용 중**    | [Woojin_works](https://github.com/whan1569/Woojin_works), [Coin](https://github.com/whan1569/Coin), [fund_data_collector](https://github.com/whan1569/fund_data_collector), [UN_Comtrade_Collector](https://github.com/whan1569/UN_Comtrade_Collector)                                                                                                                                                                                                                                             |
-| **완성 후 사용 보류** | [TradingBot](https://github.com/whan1569/TradingBot), [TOPIK](https://github.com/whan1569/TOPIK), [team3_web](https://github.com/whan1569/team3_web), [Team3](https://github.com/whan1569/Team3), [StepTrace_Android](https://github.com/whan1569/StepTrace_Android), [Item_listup](https://github.com/whan1569/Item_listup), [nara](https://github.com/whan1569/nara)                                                                                                                             |
+| **완성 후 사용 보류** | [TradingBot](https://github.com/whan1569/TradingBot), [Nasdaq_crawler](https://github.com/whan1569/Nasdaq_crawler), [TOPIK](https://github.com/whan1569/TOPIK), [team3_web](https://github.com/whan1569/team3_web), [Team3](https://github.com/whan1569/Team3), [StepTrace_Android](https://github.com/whan1569/StepTrace_Android), [Item_listup](https://github.com/whan1569/Item_listup), [nara](https://github.com/whan1569/nara)                                                                                                             |
 | **한계 확인 후 중단** | [VisionDrive_Risk](https://github.com/whan1569/VisionDrive_Risk), [AutoBid_Bot](https://github.com/whan1569/AutoBid_Bot), [insurance_blockchain](https://github.com/whan1569/insurance_blockchain), [National_Fiscal_Evaluation](https://github.com/whan1569/National_Fiscal_Evaluation), [FairWay](https://github.com/whan1569/FairWay), [car_parts_scan](https://github.com/whan1569/car_parts_scan), [car_parts_scan-AutoML-MLflow-](https://github.com/whan1569/car_parts_scan-AutoML-MLflow-) |
-| **학습 / 구조 실험** | [ChatApp](https://github.com/whan1569/ChatApp), [C--MySql-connect](https://github.com/whan1569/C--MySql-connect), [aws_study](https://github.com/whan1569/aws_study), [AI_training](https://github.com/whan1569/AI_training), [Nasdaq_crawler](https://github.com/whan1569/Nasdaq_crawler), [Stock_charts](https://github.com/whan1569/Stock_charts), [bitcoin](https://github.com/whan1569/bitcoin), [SkinNote_OPS](https://github.com/whan1569/SkinNote_OPS)                                     |
+| **학습 / 구조 실험** | [ChatApp](https://github.com/whan1569/ChatApp), [C--MySql-connect](https://github.com/whan1569/C--MySql-connect), [aws_study](https://github.com/whan1569/aws_study), [AI_training](https://github.com/whan1569/AI_training), [Stock_charts](https://github.com/whan1569/Stock_charts), [bitcoin](https://github.com/whan1569/bitcoin), [SkinNote_OPS](https://github.com/whan1569/SkinNote_OPS)                                                                                             |
 | **활동 / 실무 기록** | [Woojin_works](https://github.com/whan1569/Woojin_works), [college_career](https://github.com/whan1569/college_career), [whan1569](https://github.com/whan1569/whan1569)                                                                                                                                                                                                                                                                                                                           |
 
 ---
@@ -171,6 +171,28 @@ UN Comtrade API를 활용해 국가, HS Code, 운송 방식 기준의 수출입 
 
 ---
 
+## [Nasdaq_crawler](https://github.com/whan1569/Nasdaq_crawler)
+
+NASDAQ 티커와 미국 주식, ETF, 주요 지수 데이터를 수집하고 CSV 및 차트 뷰어로 확인하기 위한 Python 기반 시장 데이터 수집 도구입니다.
+
+**핵심 성격**
+
+* NASDAQ 종목 및 ETF 데이터 수집
+* 주요 지수 데이터 수집
+* Yahoo Finance 기반 가격 데이터 수집 흐름 구성
+* CSV 기반 저장 구조
+* HTML 기반 차트 뷰어 실험
+* 이후 분석, 백테스팅, 시장 관찰에 활용 가능한 데이터 수집 기반 구성
+
+**보류 이유**
+미국 주식 시장 데이터 수집과 시각화 구조는 구성했지만, 현재는 실시간 운용보다는 다른 시장 분석 도구와 개인 데이터 파이프라인을 우선 사용하고 있습니다.
+또한 Yahoo Finance 응답 형식이나 데이터 제공 방식이 변경될 수 있어, 실제 재사용 시에는 수집 경로와 저장 구조를 다시 확인해야 합니다.
+
+**상태**
+시장 데이터 수집 도구 / 완성 후 사용 보류
+
+---
+
 ## [TOPIK](https://github.com/whan1569/TOPIK)
 
 TOPIK 시험의 문제 번호별 고정 출제 유형을 활용해, 초기 사용자 데이터가 부족한 상황에서도 동작 가능한 규칙 기반 학습 추천 구조를 실험한 프로젝트입니다.
@@ -217,18 +239,19 @@ LG헬로비전 DX DATA 교육 과정에서 실제 VOD 데이터를 활용해 맞
 
 ## [Team3](https://github.com/whan1569/Team3)
 
-VOD 추천 프로젝트의 기획, 데이터 분석, 추천 전략, VectorDB 전략 등을 정리한 산출물 저장소입니다.
+[team3_web](https://github.com/whan1569/team3_web) 프로젝트 구현 이전 단계에서 작성한 기획, 회의, 역할 분담, WBS, 프로젝트 계획서 등을 정리한 팀 프로젝트 협업 기록 저장소입니다.
 
 **핵심 성격**
 
-* VOD 추천 프로젝트 기획 자료
-* 데이터 분석 기록
-* 줄거리 기반 추천 전략
-* VectorDB 기반 Cold Start 완화 전략
-* 팀 프로젝트 산출물 정리
+* [team3_web](https://github.com/whan1569/team3_web) 구현 전 기획 자료
+* 회의 내용 및 논의 사항 기록
+* WBS 기반 일정 관리
+* 역할 분담 및 작업 범위 정리
+* 프로젝트 계획서 및 팀원별 조사 자료 보관
+* 실제 구현 저장소로 넘어가기 전의 사전 작업 기록
 
 **상태**
-교육 과정 문서 / 프로젝트 산출물
+교육 과정 기획·협업 문서 / [team3_web](https://github.com/whan1569/team3_web) 이전 단계 산출물
 
 ---
 
@@ -479,16 +502,18 @@ C# WinForms 환경에서 TCP/IP 기반 클라이언트-서버 채팅 구조를 �
 
 ## [C--MySql-connect](https://github.com/whan1569/C--MySql-connect)
 
-C++ 애플리케이션과 MySQL 데이터베이스를 연동하는 구조를 학습하기 위한 실험입니다.
+C/C++ 환경에서 MySQL 연결, TCP 서버 구조, CMake 빌드 구성을 실험했지만, 최종적으로 안정적인 DB 연결까지는 완료하지 못한 학습 기록 저장소입니다.
 
 **핵심 성격**
 
-* C++ 애플리케이션과 MySQL 연결
-* DB 연동 구조 학습
-* 저수준 애플리케이션과 데이터 저장소 연결 실습
+* C/C++ 기반 MySQL Connector 연결 시도
+* CMake 기반 외부 라이브러리 연결 실험
+* TCP 서버 구조와 소켓 프로그래밍 흐름 학습
+* 빌드 설정, 라이브러리 경로, DB 연결 오류 기록
+* C# 구현 방식과 C/C++ 구현 방식의 난이도 비교
 
 **상태**
-학습용 DB 연동 실험
+DB 연동 시도 / 실패 원인 기록 / 학습용 구조 실험
 
 ---
 
@@ -521,24 +546,6 @@ AI / 머신러닝 모델 학습과 데이터 처리 실습을 기록하기 위�
 
 **상태**
 학습 노트북
-
----
-
-## [Nasdaq_crawler](https://github.com/whan1569/Nasdaq_crawler)
-
-NASDAQ 종목, ETF, 주요 지수 데이터를 수집하고 정리하기 위한 프로젝트입니다.
-
-**핵심 성격**
-
-* NASDAQ 종목 데이터 수집
-* ETF 데이터 수집
-* 주요 지수 데이터 수집
-* Yahoo Finance 기반 데이터 수집 흐름
-* CSV 출력
-* 차트 뷰어 실험
-
-**상태**
-시장 데이터 수집 실험
 
 ---
 
