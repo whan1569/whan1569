@@ -29,25 +29,25 @@
 
 ## Repository Status Map
 
-| 분류             | 의미                                                                          |
-| -------------- | --------------------------------------------------------------------------- |
-| **실제 사용 중**    | 개인 업무, 데이터 분석, 시장 관찰, 실무 정리에 실제로 사용하거나 계속 개선 중인 프로젝트                        |
-| **완성 후 사용 보류** | 핵심 기능은 구현했고 실제 사용 경험도 있지만, 운영 비용, 데이터 확보, 시장성, 우선순위 등의 이유로 현재는 사용하지 않는 프로젝트 |
-| **한계 확인 후 중단** | 기술 가능성은 검토했지만, 성능, 비용, 유지보수성, 실사용 효율의 한계를 확인하고 중단한 프로젝트                     |
-| **학습 / 구조 실험** | 특정 기술, API, 프레임워크, 센서, 통신, DB 연동 구조를 이해하기 위해 만든 프로젝트                        |
-| **활동 / 실무 기록** | 코드보다 경험, 문서, 현장 대응, 교육 과정, 산출물 기록이 중요한 저장소                                  |
+| 분류             | 의미                                                                                     |
+| -------------- | -------------------------------------------------------------------------------------- |
+| **실제 사용 중**    | 개인 업무, 데이터 분석, 시장 관찰, 실무 정리에 실제로 사용하거나 계속 개선 중인 프로젝트                                   |
+| **완성 후 사용 보류** | 핵심 기능은 구현했거나 실제 사용 경험이 있지만, 운영 비용, 데이터 확보, 시장성, 우선순위, 외부 환경 변화 등의 이유로 현재는 사용하지 않는 프로젝트 |
+| **한계 확인 후 중단** | 기술 가능성은 검토했지만, 성능, 비용, 유지보수성, 실사용 효율의 한계를 확인하고 중단한 프로젝트                                |
+| **학습 / 구조 실험** | 특정 기술, API, 프레임워크, 센서, 통신, DB 연동 구조를 이해하기 위해 만든 프로젝트                                   |
+| **활동 / 실무 기록** | 코드보다 경험, 문서, 현장 대응, 교육 과정, 산출물 기록이 중요한 저장소                                             |
 
 ---
 
 ## Quick Repository Index
 
-| 분류             | Repositories                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **실제 사용 중**    | [Woojin_works](https://github.com/whan1569/Woojin_works), [Coin](https://github.com/whan1569/Coin), [fund_data_collector](https://github.com/whan1569/fund_data_collector), [TradingBot](https://github.com/whan1569/TradingBot), [UN_Comtrade_Collector](https://github.com/whan1569/UN_Comtrade_Collector)                                                                                                                                                                                             |
-| **완성 후 사용 보류** | [TOPIK](https://github.com/whan1569/TOPIK), [team3_web](https://github.com/whan1569/team3_web), [Team3](https://github.com/whan1569/Team3), [StepTrace_Android](https://github.com/whan1569/StepTrace_Android), [Item_listup](https://github.com/whan1569/Item_listup)                                                                                                                                                                                                                                   |
-| **한계 확인 후 중단** | [VisionDrive_Risk](https://github.com/whan1569/VisionDrive_Risk), [AutoBid_Bot](https://github.com/whan1569/AutoBid_Bot), [insurance_blockchain](https://github.com/whan1569/insurance_blockchain), [National_Fiscal_Evaluation](https://github.com/whan1569/National_Fiscal_Evaluation), [FairWay](https://github.com/whan1569/FairWay), [car_parts_scan](https://github.com/whan1569/car_parts_scan), [car_parts_scan-AutoML-MLflow-](https://github.com/whan1569/car_parts_scan-AutoML-MLflow-)       |
-| **학습 / 구조 실험** | [ChatApp](https://github.com/whan1569/ChatApp), [C--MySql-connect](https://github.com/whan1569/C--MySql-connect), [aws_study](https://github.com/whan1569/aws_study), [AI_training](https://github.com/whan1569/AI_training), [Nasdaq_crawler](https://github.com/whan1569/Nasdaq_crawler), [Stock_charts](https://github.com/whan1569/Stock_charts), [bitcoin](https://github.com/whan1569/bitcoin), [SkinNote_OPS](https://github.com/whan1569/SkinNote_OPS), [nara](https://github.com/whan1569/nara) |
-| **활동 / 실무 기록** | [Woojin_works](https://github.com/whan1569/Woojin_works), [college_career](https://github.com/whan1569/college_career), [whan1569](https://github.com/whan1569/whan1569)                                                                                                                                                                                                                                                                                                                                 |
+| 분류             | Repositories                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **실제 사용 중**    | [Woojin_works](https://github.com/whan1569/Woojin_works), [Coin](https://github.com/whan1569/Coin), [fund_data_collector](https://github.com/whan1569/fund_data_collector), [UN_Comtrade_Collector](https://github.com/whan1569/UN_Comtrade_Collector)                                                                                                                                                                                                                                             |
+| **완성 후 사용 보류** | [TradingBot](https://github.com/whan1569/TradingBot), [TOPIK](https://github.com/whan1569/TOPIK), [team3_web](https://github.com/whan1569/team3_web), [Team3](https://github.com/whan1569/Team3), [StepTrace_Android](https://github.com/whan1569/StepTrace_Android), [Item_listup](https://github.com/whan1569/Item_listup), [nara](https://github.com/whan1569/nara)                                                                                                                             |
+| **한계 확인 후 중단** | [VisionDrive_Risk](https://github.com/whan1569/VisionDrive_Risk), [AutoBid_Bot](https://github.com/whan1569/AutoBid_Bot), [insurance_blockchain](https://github.com/whan1569/insurance_blockchain), [National_Fiscal_Evaluation](https://github.com/whan1569/National_Fiscal_Evaluation), [FairWay](https://github.com/whan1569/FairWay), [car_parts_scan](https://github.com/whan1569/car_parts_scan), [car_parts_scan-AutoML-MLflow-](https://github.com/whan1569/car_parts_scan-AutoML-MLflow-) |
+| **학습 / 구조 실험** | [ChatApp](https://github.com/whan1569/ChatApp), [C--MySql-connect](https://github.com/whan1569/C--MySql-connect), [aws_study](https://github.com/whan1569/aws_study), [AI_training](https://github.com/whan1569/AI_training), [Nasdaq_crawler](https://github.com/whan1569/Nasdaq_crawler), [Stock_charts](https://github.com/whan1569/Stock_charts), [bitcoin](https://github.com/whan1569/bitcoin), [SkinNote_OPS](https://github.com/whan1569/SkinNote_OPS)                                     |
+| **활동 / 실무 기록** | [Woojin_works](https://github.com/whan1569/Woojin_works), [college_career](https://github.com/whan1569/college_career), [whan1569](https://github.com/whan1569/whan1569)                                                                                                                                                                                                                                                                                                                           |
 
 ---
 
@@ -113,24 +113,6 @@
 
 ---
 
-## [TradingBot](https://github.com/whan1569/TradingBot)
-
-거래 전략, 실행, 거래소 인터페이스, 리스크 관리, 테스트/실거래 모드를 분리한 트레이딩 시스템 구조 실험입니다.
-
-**핵심 성격**
-
-* exchange / execution / strategy / config / model / dashboard / test 모듈 분리
-* Binance API 기반 워크플로우 구성
-* 전략과 실행 계층 분리
-* 리스크 관리 구조 검토
-* 테스트 모드와 실거래 모드 분리
-* 자동매매 시스템의 구조적 안정성 검토
-
-**상태**
-개인 시스템 실험 / 일부 사용 가능 / 실거래 중심보다는 구조 검증 중심
-
----
-
 ## [UN_Comtrade_Collector](https://github.com/whan1569/UN_Comtrade_Collector)
 
 UN Comtrade API를 활용해 국가, HS Code, 운송 방식 기준의 수출입 데이터를 수집하고 분석하기 위한 프로젝트입니다.
@@ -162,8 +144,30 @@ UN Comtrade API를 활용해 국가, HS Code, 운송 방식 기준의 수출입 
 
 <br>
 
-핵심 기능은 구현했고 실제 사용 경험도 있지만, 현재는 운영하지 않거나 우선순위에서 내려둔 프로젝트입니다.
-보류 이유는 단순 실패가 아니라 운영 비용, 데이터 확보, 시장성, 관리 부담, 우선순위 판단에 가깝습니다.
+핵심 기능은 구현했거나 실제 사용 경험이 있지만, 현재는 운영하지 않거나 우선순위에서 내려둔 프로젝트입니다.
+보류 이유는 단순 실패가 아니라 운영 비용, 데이터 확보, 시장성, 관리 부담, 외부 환경 변화, 우선순위 판단에 가깝습니다.
+
+---
+
+## [TradingBot](https://github.com/whan1569/TradingBot)
+
+거래 전략, 실행, 거래소 인터페이스, 리스크 관리, 테스트/실거래 모드를 분리한 트레이딩 시스템 구조 실험입니다.
+
+**핵심 성격**
+
+* exchange / execution / strategy / config / model / dashboard / test 모듈 분리
+* Binance API 기반 워크플로우 구성
+* 전략과 실행 계층 분리
+* 리스크 관리 구조 검토
+* 테스트 모드와 실거래 모드 분리
+* 자동매매 시스템의 구조적 안정성 검토
+
+**보류 이유**
+거래 시스템의 구조와 모듈 분리는 구현했지만, 실거래 자동화는 리스크 관리, 예외 상황 대응, API 제한, 주문 실패 처리, 자금 관리 검증이 충분히 확보되어야 한다고 판단했습니다.
+현재는 실거래 도구로 사용하기보다는 트레이딩 시스템 구조를 검토한 완성형 실험 프로젝트로 보관하고 있습니다.
+
+**상태**
+완성형 트레이딩 시스템 구조 실험 / 실거래 사용 보류
 
 ---
 
@@ -268,6 +272,29 @@ Android 디바이스의 센서 데이터를 수집하고 기록하는 구조를 
 
 **상태**
 실사용 완료 / 완성형 데이터 정제 도구 / 현재 사용 보류
+
+---
+
+## [nara](https://github.com/whan1569/nara)
+
+나라장터 입찰 데이터를 자동화와 OCR을 통해 수집하고 구조화하기 위한 프로젝트입니다.
+
+**핵심 성격**
+
+* Selenium 기반 브라우저 자동화
+* PyAutoGUI 기반 화면 자동화
+* Google Vision OCR 기반 이미지 텍스트 추출
+* 입찰 관련 비정형 데이터 구조화
+* MySQL 저장 구조
+* 수동 탐색이 필요한 데이터를 자동화 흐름으로 전환
+* 공공조달 사이트에서 필요한 정보를 반복 수집하기 위한 자동화 구조 검토
+
+**보류 이유**
+자동화와 OCR 기반 데이터 추출 구조는 구성했지만, 나라장터 사이트 구조가 변경되면서 기존 자동화 흐름의 유지보수가 필요해졌습니다.
+현재는 사이트 구조 변경에 대응하기 전까지 사용을 보류하고 있습니다.
+
+**상태**
+실사용 목적 자동화 도구 / 외부 사이트 구조 변경으로 사용 보류
 
 </details>
 
@@ -560,24 +587,6 @@ NASDAQ 종목, ETF, 주요 지수 데이터를 수집하고 정리하기 위한 
 
 **상태**
 서비스 UI 프로토타입 / 구조 실험
-
----
-
-## [nara](https://github.com/whan1569/nara)
-
-나라장터 입찰 데이터를 자동화와 OCR을 통해 수집하고 구조화하기 위한 프로젝트입니다.
-
-**핵심 성격**
-
-* Selenium 기반 브라우저 자동화
-* PyAutoGUI 기반 화면 자동화
-* Google Vision OCR 기반 이미지 텍스트 추출
-* 입찰 관련 비정형 데이터 구조화
-* MySQL 저장 구조
-* 수동 탐색이 필요한 데이터를 자동화 흐름으로 전환하는 실험
-
-**상태**
-자동화 / OCR 기반 데이터 추출 실험
 
 </details>
 
