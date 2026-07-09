@@ -44,10 +44,10 @@
 | 분류             | Repositories                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **실제 사용 중**    | [Woojin_works](https://github.com/whan1569/Woojin_works), [Coin](https://github.com/whan1569/Coin), [fund_data_collector](https://github.com/whan1569/fund_data_collector), [UN_Comtrade_Collector](https://github.com/whan1569/UN_Comtrade_Collector)                                                                                                                                                                                                                                             |
-| **완성 후 사용 보류** | [TradingBot](https://github.com/whan1569/TradingBot), [Nasdaq_crawler](https://github.com/whan1569/Nasdaq_crawler), [TOPIK](https://github.com/whan1569/TOPIK), [team3_web](https://github.com/whan1569/team3_web), [Team3](https://github.com/whan1569/Team3), [StepTrace_Android](https://github.com/whan1569/StepTrace_Android), [Item_listup](https://github.com/whan1569/Item_listup), [nara](https://github.com/whan1569/nara)                                                                                                             |
+| **완성 후 사용 보류** | [TradingBot](https://github.com/whan1569/TradingBot), [Nasdaq_crawler](https://github.com/whan1569/Nasdaq_crawler), [TOPIK](https://github.com/whan1569/TOPIK), [team3_web](https://github.com/whan1569/team3_web), [StepTrace_Android](https://github.com/whan1569/StepTrace_Android), [Item_listup](https://github.com/whan1569/Item_listup), [nara](https://github.com/whan1569/nara)                                                                                                             |
 | **한계 확인 후 중단** | [VisionDrive_Risk](https://github.com/whan1569/VisionDrive_Risk), [AutoBid_Bot](https://github.com/whan1569/AutoBid_Bot), [insurance_blockchain](https://github.com/whan1569/insurance_blockchain), [National_Fiscal_Evaluation](https://github.com/whan1569/National_Fiscal_Evaluation), [FairWay](https://github.com/whan1569/FairWay), [car_parts_scan](https://github.com/whan1569/car_parts_scan), [car_parts_scan-AutoML-MLflow-](https://github.com/whan1569/car_parts_scan-AutoML-MLflow-) |
 | **학습 / 구조 실험** | [ChatApp](https://github.com/whan1569/ChatApp), [C--MySql-connect](https://github.com/whan1569/C--MySql-connect), [aws_study](https://github.com/whan1569/aws_study), [AI_training](https://github.com/whan1569/AI_training), [Stock_charts](https://github.com/whan1569/Stock_charts), [bitcoin](https://github.com/whan1569/bitcoin), [SkinNote_OPS](https://github.com/whan1569/SkinNote_OPS)                                                                                             |
-| **활동 / 실무 기록** | [Woojin_works](https://github.com/whan1569/Woojin_works), [college_career](https://github.com/whan1569/college_career), [whan1569](https://github.com/whan1569/whan1569)                                                                                                                                                                                                                                                                                                                           |
+| **활동 / 실무 기록** | [Woojin_works](https://github.com/whan1569/Woojin_works), [Team3](https://github.com/whan1569/Team3), [college_career](https://github.com/whan1569/college_career), [whan1569](https://github.com/whan1569/whan1569)                                                                                                                                                                                                                                                                                                                           |
 
 ---
 
@@ -234,24 +234,6 @@ LG헬로비전 DX DATA 교육 과정에서 실제 VOD 데이터를 활용해 맞
 
 **상태**
 교육 과정 산출물 / 시연 완료 / 운영 보류
-
----
-
-## [Team3](https://github.com/whan1569/Team3)
-
-[team3_web](https://github.com/whan1569/team3_web) 프로젝트 구현 이전 단계에서 작성한 기획, 회의, 역할 분담, WBS, 프로젝트 계획서 등을 정리한 팀 프로젝트 협업 기록 저장소입니다.
-
-**핵심 성격**
-
-* [team3_web](https://github.com/whan1569/team3_web) 구현 전 기획 자료
-* 회의 내용 및 논의 사항 기록
-* WBS 기반 일정 관리
-* 역할 분담 및 작업 범위 정리
-* 프로젝트 계획서 및 팀원별 조사 자료 보관
-* 실제 구현 저장소로 넘어가기 전의 사전 작업 기록
-
-**상태**
-교육 과정 기획·협업 문서 / [team3_web](https://github.com/whan1569/team3_web) 이전 단계 산출물
 
 ---
 
@@ -623,6 +605,27 @@ AI / 머신러닝 모델 학습과 데이터 처리 실습을 기록하기 위�
 
 **상태**
 실무 활동 기록 / 현장 대응 아카이브
+
+---
+
+## [Team3](https://github.com/whan1569/Team3)
+
+[team3_web](https://github.com/whan1569/team3_web) 프로젝트 구현 이전 단계에서 작성한 회의록, WBS, 프로젝트 계획서, 역할 분담, 아이디어 정리 자료를 보관한 팀 프로젝트 기획·협업 기록 저장소입니다.
+
+이 저장소는 실행 가능한 서비스 코드 저장소라기보다, 실제 구현 저장소인 [team3_web](https://github.com/whan1569/team3_web)으로 넘어가기 전 팀이 어떤 방식으로 문제를 정의하고, 역할을 나누고, 일정과 방향을 정리했는지 보여주는 활동 기록에 가깝습니다.
+
+**핵심 성격**
+
+* [team3_web](https://github.com/whan1569/team3_web) 구현 전 기획 자료
+* 회의 내용 및 논의 사항 기록
+* WBS 기반 일정 관리
+* 역할 분담 및 작업 범위 정리
+* 프로젝트 계획서 및 팀원별 조사 자료 보관
+* 실제 구현 저장소로 넘어가기 전의 사전 작업 기록
+* 팀 단위 협업 과정과 의사결정 흐름 기록
+
+**상태**
+교육 과정 기획·협업 기록 / [team3_web](https://github.com/whan1569/team3_web) 이전 단계 산출물
 
 ---
 
